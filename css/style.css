@@ -1,41 +1,94 @@
+/*basic styles*/
 main{
   font-family: 'Source-Sans', Arial, Helvetica, sans-serif;
   line-height:1.2rem;
+  margin-top:5rem;
+  margin-left: 0.3rem;
 }
-
+/*heading style*/
 h3{
   font-family: 'Libre Baskerville' , Georgia, 'Times New Roman', Times, serif;
-  font-weight:600;
+  font-weight:500;
+  font-size:30px;
 }
-
+/*subheading style*/
 h4 {
   
   line-height: 1.2rem;
   padding-bottom: 0;
   margin-bottom: 0.5rem;
 }
+/*text style*/
 p{
   line-height: 1.2rem;
   padding-top:0;
   margin: 0;
+
 }
+/*card body*/
 article{
   background-color: antiquewhite;
   color: black;
   border: 2px;
   border-style:solid;
-  border-color:black;
+  border-color:antiquewhite;
   max-width: 45ch;
   min-width:10ch;
   margin: auto;
-  padding:2rem;
+  padding:2.5rem;
   overflow: auto;
   
 }
-
+/*card image*/
 img{
   margin:auto;
   padding: auto;
   display:block;
   position:relative;
+}
+/*date box*/
+aside{
+  background-color:antiquewhite;
+  color:black;
+  border-style:solid;
+  border-color:antiquewhite;
+  display:block;
+  text-align: center;
+  height:50px;
+  width:50px;
+  
+  left:40rem;; /* play around with this STILL NEEDS TO BE DONE*/
+  position:absolute;
+  top:10em; /* and play around with this STILL NEEDS TO BE DONE*/
+}
+/*date text styling*/
+.date{
+  font-family:'Source-Sans', Arial, Helvetica, sans-serif;
+  font-style: light;
+  position:center;
+  display:block;
+}
+ /*centers date in box*/
+.datebox{
+  text-align:center;
+  padding-top:0.4rem;
+}
+
+@media only screen and (max-width: 480px) {
+  main{
+    margin-left:none;
+    margin-top:none;
+  }
+
+  article {
+    background-color: lightblue;
+    margin:auto;
+    padding:1rem;
+    max-width:fit-content;
+    padding-right: 1rem;
+  }
+
+  h3{
+    line-height:1.8rem;
+  }
 }
