@@ -1,0 +1,41 @@
+main{
+  font-family: 'Source-Sans', Arial, Helvetica, sans-serif;
+  line-height:1.2rem;
+}
+
+h3{
+  font-family: 'Libre Baskerville' , Georgia, 'Times New Roman', Times, serif;
+  font-weight:600;
+}
+
+h4 {
+  
+  line-height: 1.2rem;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+p{
+  line-height: 1.2rem;
+  padding-top:0;
+  margin: 0;
+}
+article{
+  background-color: antiquewhite;
+  color: black;
+  border: 2px;
+  border-style:solid;
+  border-color:black;
+  max-width: 45ch;
+  min-width:10ch;
+  margin: auto;
+  padding:2rem;
+  overflow: auto;
+  
+}
+
+img{
+  margin:auto;
+  padding: auto;
+  display:block;
+  position:relative;
+}
