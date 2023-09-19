@@ -5,6 +5,16 @@ main{
   margin-top:5rem;
   margin-left: 0.3rem;
 }
+/*removed default styles for links*/
+a{
+  text-decoration:none;
+  color:hsl(0, 0%, 100%);
+  width:fit-content;
+}
+
+a:hover {
+  color: yellow;
+}
 /*heading style*/
 h3{
   font-family: 'Libre Baskerville' , Georgia, 'Times New Roman', Times, serif;
@@ -27,18 +37,20 @@ p{
 }
 /*card body*/
 article{
-  background-color: antiquewhite;
-  color: black;
+  background-color:  	hsl(3, 29%, 47%);
+  color: hsl(0, 0%, 100%);
+
   border: 2px;
   border-style:solid;
-  border-color:antiquewhite;
+  border-color: 	hsl(3, 29%, 47%);
+
   max-width: 45ch;
   min-width:10ch;
+  
   margin: auto;
   padding:2.5rem;
-  overflow: auto;
-  
 }
+
 /*card image*/
 img{
   margin:auto;
@@ -46,12 +58,13 @@ img{
   display:block;
   position:relative;
 }
+
 /*date box*/
 aside{
-  background-color:antiquewhite;
-  color:black;
+  background-color: 	 	hsl(4, 45%, 64%);
+  color:hsl(0, 12%, 18%);
   border-style:solid;
-  border-color:antiquewhite;
+  border-color: 	 	hsl(4, 45%, 64%);
   display:block;
   text-align: center;
   height:50px;
@@ -61,6 +74,7 @@ aside{
   position:absolute;
   top:10em; /* and play around with this STILL NEEDS TO BE DONE*/
 }
+
 /*date text styling*/
 .date{
   font-family:'Source-Sans', Arial, Helvetica, sans-serif;
@@ -68,24 +82,42 @@ aside{
   position:center;
   display:block;
 }
+
  /*centers date in box*/
 .datebox{
   text-align:center;
   padding-top:0.4rem;
 }
 
-@media only screen and (max-width: 480px) {
+/*adjust css for mobile*/
+@media screen and (max-width: 480px) {
+  /*removes default margin*/
+  html{
+    padding: 0;
+    margin: 0;
+    display:block;
+
+  }
+
+  body{
+    display:block;
+    margin:0;
+    padding:0;
+
+  }
+  /*space from top*/
   main{
-    margin-left:none;
-    margin-top:none;
+    margin-left:0;
+    margin-top: 5rem;
+    
   }
 
   article {
-    background-color: lightblue;
+    background-color:  	hsl(3, 29%, 47%);
     margin:auto;
-    padding:1rem;
-    max-width:fit-content;
-    padding-right: 1rem;
+    padding:1.5rem;
+    width:100%;
+    
   }
 
   h3{
