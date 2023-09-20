@@ -1,20 +1,28 @@
 /*basic styles*/
+
+
+
+
 main{
   font-family: 'Source-Sans', Arial, Helvetica, sans-serif;
   line-height:1.2rem;
+  margin-left:30%;
   margin-top:5rem;
-  margin-left: 0.3rem;
+}
+
+/*keeps link inside of card*/ 
+.card{
+  width:min-content;
 }
 /*removed default styles for links*/
 a{
   text-decoration:none;
-  color:hsl(0, 0%, 100%);
-  width:fit-content;
 }
 
 a:hover {
-  color: yellow;
+  background-color: white;
 }
+
 /*heading style*/
 h3{
   font-family: 'Libre Baskerville' , Georgia, 'Times New Roman', Times, serif;
@@ -70,9 +78,9 @@ aside{
   height:50px;
   width:50px;
   
-  left:40rem;; /* play around with this STILL NEEDS TO BE DONE*/
-  position:absolute;
-  top:10em; /* and play around with this STILL NEEDS TO BE DONE*/
+  left:60%; /* play around with this STILL NEEDS TO BE DONE*/
+  position:relative;
+  top:16.5%; /* and play around with this STILL NEEDS TO BE DONE*/
 }
 
 /*date text styling*/
