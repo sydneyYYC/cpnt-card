@@ -16,10 +16,6 @@ a{
   text-decoration:none;
 }
 
-a:hover {
-  color:white;
-  border-color: brown;
-}
 
 /*heading style*/
 h3{
@@ -39,17 +35,17 @@ p{
   line-height: 1.2rem;
   padding-top:0;
   margin: 0;
-
+  
 }
 /*card body*/
 article{
   background-color:  	hsl(3, 29%, 47%);
   color: hsl(0, 0%, 100%);
-
+  
   border: 2px;
   border-style:solid;
   border-color: 	hsl(3, 29%, 47%);
-
+  
   max-width: 45ch;
   min-width:10ch;
   
@@ -61,7 +57,6 @@ article{
 /*card image*/
 img{
   margin:auto;
-  padding:auto;
   display:block;
   position:relative;
 }
@@ -86,16 +81,22 @@ aside{
 /*date text styling*/
 .date{
   font-family:'Source-Sans', Arial, Helvetica, sans-serif;
-  font-style: light;
-  position:center;
   display:block;
 }
 
  /*centers text in box*/
-.datebox{
+ .datebox{
   text-align:center;
   padding-top:0.4rem;
 }
+
+a:hover {
+  background-color:hsl(3, 56%, 76%);
+  color:hsl(0, 12%, 18%)
+  border-color:black;
+  border:3px;
+}
+
 
 /*adjust css for mobile*/
 @media screen and (max-width: 480px) {
