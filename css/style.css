@@ -79,8 +79,8 @@ aside{
   width:50px;
   
   position:absolute; 
-  left:calc(100% - 300px); /* play around with this STILL NEEDS TO BE DONE*/
-  top:8.5rem; 
+  left:calc(100% - 115px); /* play around with this STILL NEEDS TO BE DONE*/
+  top:3.5rem; 
 }
 
 /*date text styling*/
@@ -144,6 +144,6 @@ aside{
   
   left:22rem; 
   position:absolute;
-  top:7.5rem; 
+  top:2.5rem; 
 }
 }
