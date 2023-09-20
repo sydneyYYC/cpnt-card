@@ -1,18 +1,15 @@
 /*basic styles*/
-
-
-
-
 main{
   font-family: 'Source-Sans', Arial, Helvetica, sans-serif;
   line-height:1.2rem;
   margin-left:30%;
   margin-top:5rem;
+  display:flex;
 }
 
 /*keeps link inside of card*/ 
 .card{
-  width:min-content;
+  width:max-content;
 }
 /*removed default styles for links*/
 a{
@@ -20,7 +17,8 @@ a{
 }
 
 a:hover {
-  background-color: white;
+  color:white;
+  border-color: brown;
 }
 
 /*heading style*/
@@ -57,30 +55,32 @@ article{
   
   margin: auto;
   padding:2.5rem;
+  position:relative;
 }
 
 /*card image*/
 img{
   margin:auto;
-  padding: auto;
+  padding:auto;
   display:block;
   position:relative;
 }
 
 /*date box*/
+/*not the perfect solution*/
 aside{
-  background-color: 	 	hsl(4, 45%, 64%);
+  background-color:hsl(4, 45%, 64%);
   color:hsl(0, 12%, 18%);
   border-style:solid;
-  border-color: 	 	hsl(4, 45%, 64%);
+  border-color:hsl(4, 45%, 64%);
   display:block;
-  text-align: center;
+  justify-content: center;
   height:50px;
   width:50px;
   
-  left:60%; /* play around with this STILL NEEDS TO BE DONE*/
-  position:relative;
-  top:16.5%; /* and play around with this STILL NEEDS TO BE DONE*/
+  position:absolute; 
+  left:calc(100% - 300px); /* play around with this STILL NEEDS TO BE DONE*/
+  top:8.5rem; 
 }
 
 /*date text styling*/
@@ -91,7 +91,7 @@ aside{
   display:block;
 }
 
- /*centers date in box*/
+ /*centers text in box*/
 .datebox{
   text-align:center;
   padding-top:0.4rem;
@@ -131,4 +131,19 @@ aside{
   h3{
     line-height:1.8rem;
   }
+  /*date box*/
+aside{
+  background-color:hsl(4, 45%, 64%);
+  color:hsl(0, 12%, 18%);
+  border-style:solid;
+  border-color:hsl(4, 45%, 64%);
+  display:flex;
+  justify-content: center;
+  height:50px;
+  width:50px;
+  
+  left:22rem; 
+  position:absolute;
+  top:7.5rem; 
+}
 }
