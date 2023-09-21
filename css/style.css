@@ -1,5 +1,5 @@
-/*basic styles*/
 main{
+  /*basic styles*/
   font-family: 'Source-Sans', Arial, Helvetica, sans-serif;
   line-height:1.2rem;
   margin-left:30%;
@@ -7,38 +7,42 @@ main{
   display:flex;
 }
 
-/*keeps link inside of card*/ 
 .card{
+  /*keeps link inside of card*/ 
   width:max-content;
 }
-/*removed default styles for links*/
+
 a{
+  /*removed default styles for links*/
   text-decoration:none;
 }
 
-
-/*heading style*/
 h3{
+  /*heading style*/
   font-family: 'Libre Baskerville' , Georgia, 'Times New Roman', Times, serif;
   font-weight:500;
   font-size:30px;
 }
-/*subheading style*/
+
 h4 {
-  
+  /*subheading style*/
   line-height: 1.2rem;
+
   padding-bottom: 0;
   margin-bottom: 0.5rem;
 }
-/*text style*/
+
 p{
+  /*text style*/
   line-height: 1.2rem;
+
   padding-top:0;
   margin: 0;
   
 }
-/*card body*/
+
 article{
+  /*card body*/
   background-color:  	hsl(3, 29%, 47%);
   color: hsl(0, 0%, 100%);
   
@@ -54,87 +58,83 @@ article{
   position:relative;
 }
 
-/*card image*/
 img{
+  /*card image*/
   margin:auto;
   display:block;
   position:relative;
 }
 
-/*date box*/
-/*not the perfect solution*/
 aside{
+  /*date box*/
+  /*not the perfect solution*/
   background-color:hsl(4, 45%, 64%);
   color:hsl(0, 0%, 100%);
+
   border-style:solid;
   border-color:hsl(4, 45%, 64%);
-  display:block;
+
   justify-content: center;
   height:50px;
   width:50px;
   
+  display:block;
   position:absolute; 
   left:calc(100% - 115px); /* play around with this STILL NEEDS TO BE DONE*/
   top:3.5rem; 
 }
 
-/*date text styling*/
 .date{
+  /*date text styling*/
   font-family:'Source-Sans', Arial, Helvetica, sans-serif;
   display:block;
 }
 
- /*centers text in box*/
- .datebox{
+.datebox{
+  /*centers text in box*/
   text-align:center;
   padding-top:0.4rem;
 }
 
-/*hover state on card - will not work on <a> tag*/
-    article:hover {
-      background-color:hsl(4, 45%, 70%);
-      color:hsl(0, 0%, 100%);
-      border-color:hsl(4, 45%, 70%);
-      }
-
-
+article:hover {
+  /*hover state on card - will not work on <a> tag*/
+  background-color:hsl(4, 45%, 70%);
+  color:hsl(0, 0%, 100%);
+  border-color:hsl(4, 45%, 70%);
+}
 
 /*adjust css for mobile*/
 @media screen and (max-width: 480px) {
-  /*removes default margin*/
   html{
+    /*removes default margin*/
     padding: 0;
     margin: 0;
     display:block;
 
   }
-
   body{
     display:block;
     margin:0;
     padding:0;
 
   }
-  /*space from top*/
   main{
+    /*space from top*/
     margin-left:0;
     margin-top: 5rem;
     
   }
-
   article {
     background-color:  	hsl(3, 29%, 47%);
     margin:auto;
     padding:1.5rem;
-    width:100%;
-    
+    width:100%; 
   }
-
   h3{
     line-height:1.8rem;
   }
+  aside{
   /*date box*/
-aside{
   background-color:hsl(4, 45%, 64%);
   color:hsl(0, 0%, 100%);
   border-style:solid;
@@ -147,8 +147,7 @@ aside{
   left:22rem; 
   position:absolute;
   top:2.5rem; 
-}
-  
+} 
 article:hover {
   background-color:hsl(4, 45%, 70%);
   color:hsl(0, 0%, 100%);
