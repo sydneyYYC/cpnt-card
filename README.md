@@ -1,7 +1,7 @@
 # CPNT260
-## Assignment 2 - Single Card
-## Sydney Bruce
-## Live here: [Live page](https://sydneyyyc.github.io/cpnt-card/)
+Assignment 2 - Single Card
+Sydney Bruce
+Live here: [Live page](https://sydneyyyc.github.io/cpnt-card/)
 
 ### References
 
