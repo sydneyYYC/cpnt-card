@@ -6,6 +6,7 @@ NOTE: date box is not responsive to clicking of whole card - not sure how to fix
 CPNT260
 Assignment 2 - Single Card
 Sydney Bruce
+https://sydneyyyc.github.io/cpnt-card/
 
 
 Pictures from Lorum Picsum 
