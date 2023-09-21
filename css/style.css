@@ -74,7 +74,7 @@ aside{
   width:50px;
   
   position:absolute; 
-  left:calc(100% - 115px); 
+  left:calc(100% - 115px); /* play around with this STILL NEEDS TO BE DONE*/
   top:3.5rem; 
 }
 
@@ -91,11 +91,12 @@ aside{
 }
 
 /*hover state on card - will not work on <a> tag*/
-  article:hover {
-  background-color:hsl(4, 55%, 70%);
-  color:hsl(0, 12%, 18%);
-  border-color:hsl(4, 55%, 70%);
-}
+    article:hover {
+      background-color:hsl(4, 45%, 70%);
+      color:hsl(0, 0%, 100%);
+      border-color:hsl(4, 45%, 70%);
+      }
+
 
 
 /*adjust css for mobile*/
@@ -149,8 +150,8 @@ aside{
 }
   
 article:hover {
-  background-color:hsl(4, 55%, 70%);
-  color:hsl(0, 12%, 18%);
-  border-color:hsl(4, 55%, 70%);
+  background-color:hsl(4, 45%, 70%);
+  color:hsl(0, 0%, 100%);
+  border-color:hsl(4, 45%, 70%);
   }
 }
