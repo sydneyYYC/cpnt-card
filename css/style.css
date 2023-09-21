@@ -65,7 +65,7 @@ img{
 /*not the perfect solution*/
 aside{
   background-color:hsl(4, 45%, 64%);
-  color:hsl(0, 12%, 18%);
+  color:hsl(0, 0%, 100%);
   border-style:solid;
   border-color:hsl(4, 45%, 64%);
   display:block;
@@ -74,7 +74,7 @@ aside{
   width:50px;
   
   position:absolute; 
-  left:calc(100% - 115px); /* play around with this STILL NEEDS TO BE DONE*/
+  left:calc(100% - 115px); 
   top:3.5rem; 
 }
 
@@ -90,11 +90,11 @@ aside{
   padding-top:0.4rem;
 }
 
-a:hover {
-  background-color:hsl(3, 56%, 76%);
-  color:hsl(0, 12%, 18%)
-  border-color:black;
-  border:3px;
+/*hover state on card - will not work on <a> tag*/
+  article:hover {
+  background-color:hsl(4, 55%, 70%);
+  color:hsl(0, 12%, 18%);
+  border-color:hsl(4, 55%, 70%);
 }
 
 
@@ -135,7 +135,7 @@ a:hover {
   /*date box*/
 aside{
   background-color:hsl(4, 45%, 64%);
-  color:hsl(0, 12%, 18%);
+  color:hsl(0, 0%, 100%);
   border-style:solid;
   border-color:hsl(4, 45%, 64%);
   display:flex;
@@ -147,4 +147,10 @@ aside{
   position:absolute;
   top:2.5rem; 
 }
+  
+article:hover {
+  background-color:hsl(4, 55%, 70%);
+  color:hsl(0, 12%, 18%);
+  border-color:hsl(4, 55%, 70%);
+  }
 }
